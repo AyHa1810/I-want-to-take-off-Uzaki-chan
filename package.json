@@ -1,0 +1,24 @@
+{
+  "name": "i-want-to-take-off-uzaki-chan",
+  "version": "1.0.0",
+  "description": "NSFW WARNING!!! A simple pixel art web game of taking off Uzaki-chan's clothes, made by Lillith Lauda Laboratory in HTML and JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyHa1810/I-want-to-take-off-Uzaki-chan.git"
+  },
+  "author": "Lillith Lauda Laboratory",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AyHa1810/I-want-to-take-off-Uzaki-chan/issues"
+  },
+  "homepage": "https://github.com/AyHa1810/I-want-to-take-off-Uzaki-chan#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.5.0"
+  }
+}
