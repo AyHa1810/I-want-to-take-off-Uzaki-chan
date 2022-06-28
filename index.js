@@ -10,13 +10,12 @@ const app = express();
 const server = http.Server(app);
 const io = socketio(server); // attaches socket.io to the server
 
-var dir = './src'; // directory for the server to load
+var dir = path.join(__dirname, 'src'); // directory for the server to load
 //var host = 'localhost'; // server host, not used
 var port = 8080; // server port
 
 // serve static assets from dir
 app.use(express.static(dir));
-//app.use(express.static(path.join(__dirname, 'src')));
 
 /** send or receive requests, commented out since its not needed
 app.get('/', (req, res) => {
